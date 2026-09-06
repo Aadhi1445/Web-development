@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+.form-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('https://images.ctfassets.net/hrltx12pl8hq/2RwJp3f9UiCnfWBEunwxOQ/f11257994853124d7b1a6a935e678c13/0_hero.webp?fit=fill&w=600&h=400') no-repeat center center;
+    background-size: cover;
+}
+.form{
+    width: 400px;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.form input{
+    width: 100%;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin: 20px;
+}
+form input[type="submit"]{
+    background-color: #4CAF50;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+}

@@ -1,0 +1,33 @@
+/* img{
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+    object-fit: fill;
+    object-fit: cover;
+}     
+   */
+/* body{ */
+    /* margin: 3px; */
+    /* border: solid red; */ 
+    
+/* }   */
+/* p{ */
+    /* color:  rgb(0, 255, 47); */
+    /* padding: 150px; */
+    /* border: 3px solid red; */
+/* } */
+table{
+    border-collapse: collapse;
+}
+
+td {
+    /* background-color: blue; */
+    /* color: white; */
+    border: 2px solid rgb(201, 13, 13);
+}
+.t1:nth-last-child(even){
+    color:  rgb(67, 42, 165);
+}
+tr:nth-child(odd){
+    background-color: rgb(202, 96, 96);
+}
